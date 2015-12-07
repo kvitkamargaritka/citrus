@@ -1,0 +1,46 @@
+@listMargin: 7px;
+
+.follow {
+  position: relative;
+
+  &__top,
+  &__bottom {
+
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  &__list {
+    margin-left: -(@listMargin);
+  }
+
+  &__el {
+    display: inline-block;
+    margin: 0 @listMargin;
+    vertical-align: middle;
+
+    &-link {
+      margin-right: 5px;
+    }
+  }
+
+  &__link {
+    margin-right: 6px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+
+    &-download {
+      width: 140px;
+      height: 40px;
+    }
+  }
+
+  &__ico {
+    position: absolute;
+
+  }
+}

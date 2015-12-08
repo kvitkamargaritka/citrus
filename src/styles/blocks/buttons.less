@@ -1,6 +1,6 @@
 .btn {
   background-color: #62B915;
-  border-bottom: 3px solid #60A700;
+  //border-bottom: 3px solid #60A700;
   border-radius: 3px;
   font: 100 13px/1 Arial;
   text-decoration: none;
@@ -15,12 +15,13 @@
     background-color: #52af10;
   }
 
-  &-buy {
+  &_buy {
     display: inline-block;
-    padding: 5px 16px;
+    padding: 0 16px;
+    height: 26px;
   }
 
-  &-ok {
+  &_ok {
     background-color: #7eb105;
     border-radius: 5px;
     padding: 5px 10px;
@@ -31,7 +32,7 @@
     }
   }
 
-  &-reset {
+  &_reset {
     background-color: #CACACA;
     border-bottom: none;
     padding: 6px 51px;
@@ -42,13 +43,64 @@
 
   }
 
-  &-green {
+  &_green {
     background-color: #30ba8f;
     padding: 7px 27px;
     border: 1px solid #fff;
 
+    &__big {
+      padding: 7px 92px;
+      border-radius: 0;
+      position: relative;
+      top: -59px;
+      left: -209px;
+    }
+
     &:hover {
       background-color: #30ba8f;
+    }
+  }
+
+  &_white {
+    height: 26px;
+    line-height: 26px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+
+    &:hover {
+      background-color: #ffffff;
+    }
+
+    &_payment {
+      padding: 0 3px;
+    }
+
+    &_scale {
+      padding: 0 4px;
+
+      &:hover {
+        background-color: #5b9107;
+
+        .ico_scale {
+          background: url("/citrus/src/img/ico/scalewhite.svg");
+          width: 17px;
+          height: 14px;
+        }
+      }
+    }
+
+    &_heart {
+      padding: 0 6px;
+
+      &:hover {
+        background-color: #EF4A63;
+
+        .ico_heart {
+          background: url("/citrus/src/img/ico/heartwhite.svg");
+          width: 13px;
+          height: 12px;
+        }
+      }
     }
   }
 }

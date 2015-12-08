@@ -236,6 +236,7 @@ a {
 }
 .ico {
   display: inline-block;
+  vertical-align: middle;
 }
 .ico_cart {
   background: url("img/ico/basket.png");
@@ -332,6 +333,21 @@ a {
   width: 287px;
   height: 75px;
 }
+.ico_payment {
+  background: url("/citrus/src/img/ico/payment.png");
+  width: 22px;
+  height: 18px;
+}
+.ico_scale {
+  background: url("/citrus/src/img/ico/scale.svg");
+  width: 17px;
+  height: 14px;
+}
+.ico_heart {
+  background: url("/citrus/src/img/ico/heartgray.svg");
+  width: 13px;
+  height: 12px;
+}
 .input__el {
   outline: none;
   padding: 0 26px 4px 6px;
@@ -343,6 +359,13 @@ a {
   outline: none;
   border: none;
   border-radius: 3px;
+}
+.input__telephone-right {
+  border-radius: 0;
+  padding: 7px 26px;
+  position: relative;
+  top: -99px;
+  right: -6px;
 }
 .search {
   width: 310px;
@@ -368,7 +391,6 @@ a {
 }
 .btn {
   background-color: #62B915;
-  border-bottom: 3px solid #60A700;
   border-radius: 3px;
   font: 100 13px/1 Arial;
   text-decoration: none;
@@ -381,34 +403,76 @@ a {
 .btn:hover {
   background-color: #52af10;
 }
-.btn-buy {
+.btn_buy {
   display: inline-block;
-  padding: 5px 16px;
+  padding: 0 16px;
+  height: 26px;
 }
-.btn-ok {
+.btn_ok {
   background-color: #7eb105;
   border-radius: 5px;
   padding: 5px 10px;
   border-bottom: none;
 }
-.btn-ok:hover {
+.btn_ok:hover {
   background-color: #98c137;
 }
-.btn-reset {
+.btn_reset {
   background-color: #CACACA;
   border-bottom: none;
   padding: 6px 51px;
 }
-.btn-reset:hover {
+.btn_reset:hover {
   background-color: #CACACA;
 }
-.btn-green {
+.btn_green {
   background-color: #30ba8f;
   padding: 7px 27px;
   border: 1px solid #fff;
 }
-.btn-green:hover {
+.btn_green__big {
+  padding: 7px 92px;
+  border-radius: 0;
+  position: relative;
+  top: -59px;
+  left: -209px;
+}
+.btn_green:hover {
   background-color: #30ba8f;
+}
+.btn_white {
+  height: 26px;
+  line-height: 26px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+.btn_white:hover {
+  background-color: #ffffff;
+}
+.btn_white_payment {
+  padding: 0 3px;
+}
+.btn_white_scale {
+  padding: 0 4px;
+}
+.btn_white_scale:hover {
+  background-color: #5b9107;
+}
+.btn_white_scale:hover .ico_scale {
+  background: url("/citrus/src/img/ico/scalewhite.svg");
+  width: 17px;
+  height: 14px;
+}
+.btn_white_heart {
+  padding: 0 6px;
+}
+.btn_white_heart:hover {
+  background-color: #EF4A63;
+}
+.btn_white_heart:hover .ico_heart {
+  background: url("/citrus/src/img/ico/heartwhite.svg");
+  width: 13px;
+  height: 12px;
 }
 .general-menu {
   font-family: 'Ubuntu', sans-serif;
@@ -662,6 +726,80 @@ a {
   float: right;
   margin-top: 29px;
   margin-right: 25px;
+}
+.item__top-name {
+  margin: 4px 0 57px 0;
+}
+.item__bottom-bonus {
+  margin: 10px 0;
+}
+.item__img {
+  display: block;
+  margin: 30px 30px;
+}
+.item__text {
+  padding: 10px 0;
+}
+.item__text-code {
+  font-size: 10px;
+  color: #777777;
+}
+.item__text-model {
+  color: #5B5B5B;
+  font-size: 10px;
+}
+.item__name {
+  color: #2a67aa;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: bold;
+}
+.item__price_old {
+  color: #5c5c5c;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.item__price_cross {
+  display: inline-block;
+  text-decoration: line-through;
+  color: red;
+}
+.item__price_new {
+  color: #F60;
+  font-size: 24px;
+  font-weight: bold;
+}
+.item__price_value {
+  font-size: 12px;
+  top: -11px;
+  margin: 0 -2px;
+  font-weight: bold;
+}
+.item__bonus {
+  color: #4a9c0d;
+  font-size: 14px;
+}
+.item__returnmoney {
+  position: relative;
+}
+.item__returnmoney-img {
+  position: absolute;
+  top: -74px;
+  left: 2px;
+  height: 84px;
+}
+.item__returnmoney-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  top: -45px;
+  left: 9px;
+}
+.item__like {
+  color: #C2C2C2;
+  font-size: 11px;
+  font-weight: bold;
 }
 body {
   font: normal 10pt Helvetica, Arial, sans-serif;

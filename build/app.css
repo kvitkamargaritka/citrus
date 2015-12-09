@@ -323,15 +323,10 @@ a {
   width: 136px;
   height: 40px;
 }
-.ico__reseller {
+.ico_reseller {
   background: url("/citrus/src/img/ico/reseller.png");
   width: 140px;
   height: 47px;
-}
-.ico__phone {
-  background: url("/citrus/src/img/ico/phone.png");
-  width: 287px;
-  height: 75px;
 }
 .ico_payment {
   background: url("/citrus/src/img/ico/payment.png");

@@ -6,6 +6,18 @@
 
   &__el {
     display: inline-block;
+    position: relative;
+    padding: 0 8px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: -1px;
+      right: -11px;
+      width: 16px;
+      height: 16px;
+      background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAqElEQVQ4T2NkoBAwUqifYRAasGDBgs0MDAw8////b0xMTDxAyIsYXliwYMF/W1tbhuvXrzO8efPmACGDsBrg5+cHtvjNmzcMt27dwmsQVgPc3NxQXH737l0GEGZkZGyIj49vRJbEaoCdnR1YzYcPHxgePnzI8PHjxwNMTEwNcXFxB9HDBKsBGhoaDE+fPmX4/PkzTo0wg7AZAI4FXDYSdAGhaBs1ADOEAKRyVBELMSU2AAAAAElFTkSuQmCC");
+    }
   }
 
   &__title {

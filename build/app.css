@@ -401,6 +401,7 @@ a {
   display: inline-block;
   padding: 0 16px;
   height: 26px;
+  box-shadow: inset 0 -2px rgba(255, 255, 255, 0.1), inset 0 -3px rgba(0, 0, 0, 0.1), 0 1px rgba(0, 0, 0, 0.05);
 }
 .btn_ok {
   background-color: #7eb105;
@@ -554,13 +555,12 @@ a {
   padding: 0 8px;
 }
 .bread-crumbs__el:after {
-  content: '';
+  content: '\25ba';
+  color: #8bbb17;
+  font-size: 9px;
   position: absolute;
-  top: -1px;
-  right: -11px;
-  width: 16px;
-  height: 16px;
-  background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAqElEQVQ4T2NkoBAwUqifYRAasGDBgs0MDAw8////b0xMTDxAyIsYXliwYMF/W1tbhuvXrzO8efPmACGDsBrg5+cHtvjNmzcMt27dwmsQVgPc3NxQXH737l0GEGZkZGyIj49vRJbEaoCdnR1YzYcPHxgePnzI8PHjxwNMTEwNcXFxB9HDBKsBGhoaDE+fPmX4/PkzTo0wg7AZAI4FXDYSdAGhaBs1ADOEAKRyVBELMSU2AAAAAElFTkSuQmCC");
+  top: 3px;
+  right: -8px;
 }
 .bread-crumbs__title {
   color: #A59D9D;
@@ -802,6 +802,15 @@ a {
 }
 .item__ico {
   margin: 0 8px;
+}
+.filter__title {
+  margin-bottom: 6px;
+}
+.filter__img {
+  margin: 0 2px;
+}
+.filter__el {
+  padding: 3px 23px;
 }
 body {
   font: normal 10pt Helvetica, Arial, sans-serif;

@@ -1,6 +1,7 @@
 .wrapper {
-  width: 1040px;
+  width: 1000px;
   margin: 0 auto;
+
 
 }
 
@@ -16,15 +17,33 @@ a {
 }
 
 //label
-.label {
+.badge {
 
   &__new {
     background-color: #fffb7e;
     border-radius: 4px;
     font-size: 10px;
     padding: 0 4px;
+    color: #000;
+    cursor: default;
+    position: absolute;
+    top: -17px;
+    right: 1px;
+  }
+
+  &__hit {
+    background-color: #fffb7e;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 0 4px;
+    color: #000;
+    cursor: default;
+    position: absolute;
+    top: -17px;
+    right: 1px;
   }
 }
+
 
 //description
 .description {
@@ -37,12 +56,36 @@ a {
 
 //main-title
 .main-title {
+  display: inline-block;
+  padding: 0 10px;
   
   &__text {
     font-size: 24px;
     font-weight: bold;
     color: #000;
   }
+
+}
+
+//logo
+.logo {
+  padding: 22px 0 0 23px;
+
+  &__img {
+
+  }
+}
+
+//general-reseller
+.general-reseller {
+  display: inline-block;
+  float: right;
+  margin: 0 10px;
+}
+
+//main-slideshow
+.main-slideshow {
+  margin: 0 29px;
 }
 
 

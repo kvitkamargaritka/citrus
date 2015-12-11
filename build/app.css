@@ -187,7 +187,7 @@ h6 {
   line-height: 1.4;
 }
 .wrapper {
-  width: 1040px;
+  width: 1000px;
   margin: 0 auto;
 }
 .atom {
@@ -199,19 +199,50 @@ h6 {
 a {
   color: #fff;
 }
-.label__new {
+.badge__new {
   background-color: #fffb7e;
   border-radius: 4px;
   font-size: 10px;
   padding: 0 4px;
+  color: #000;
+  cursor: default;
+  position: absolute;
+  top: -17px;
+  right: 1px;
+}
+.badge__hit {
+  background-color: #fffb7e;
+  border-radius: 4px;
+  font-size: 10px;
+  padding: 0 4px;
+  color: #000;
+  cursor: default;
+  position: absolute;
+  top: -17px;
+  right: 1px;
 }
 .description {
   padding: 0 10px 20px 20px;
+}
+.main-title {
+  display: inline-block;
+  padding: 0 10px;
 }
 .main-title__text {
   font-size: 24px;
   font-weight: bold;
   color: #000;
+}
+.logo {
+  padding: 22px 0 0 23px;
+}
+.general-reseller {
+  display: inline-block;
+  float: right;
+  margin: 0 10px;
+}
+.main-slideshow {
+  margin: 0 29px;
 }
 .ico {
   display: inline-block;
@@ -363,6 +394,7 @@ a {
 }
 .search {
   width: 310px;
+  margin: 20px 0;
 }
 .search__field,
 .search__action {
@@ -416,6 +448,7 @@ a {
   background-color: #CACACA;
   border-bottom: none;
   padding: 6px 51px;
+  margin: 10px 20px;
 }
 .btn_reset:hover {
   background-color: #CACACA;
@@ -512,6 +545,7 @@ a {
   font-weight: 500px;
   font-size: 14px;
   box-sizing: border-box;
+  position: relative;
 }
 .general-menu__info-black {
   color: #000;
@@ -538,8 +572,15 @@ a {
   cursor: pointer;
 }
 .user-menu {
-  font-size: 11px;
   background-color: #ababab;
+  font-size: 11px;
+}
+.user-menu__left {
+  float: left;
+}
+.user-menu__right {
+  float: right;
+  padding-right: 30px;
 }
 .user-menu__el {
   display: inline-block;
@@ -548,6 +589,9 @@ a {
 }
 .user-menu__link-underline:hover {
   text-decoration: underline;
+}
+.bread-crumbs {
+  margin: 10px 0;
 }
 .bread-crumbs__el {
   display: inline-block;
@@ -666,7 +710,7 @@ a {
 .similar-item {
   background-color: #EFFED5;
   border-radius: 8px;
-  margin: 0 8px;
+  margin: 10px 10px;
 }
 .similar-item__el {
   display: inline-block;
@@ -803,6 +847,10 @@ a {
 .item__ico {
   margin: 0 8px;
 }
+.filter {
+  margin: 10px 0;
+  padding: 0 5px;
+}
 .filter__title {
   margin-bottom: 6px;
 }
@@ -811,6 +859,40 @@ a {
 }
 .filter__el {
   padding: 3px 23px;
+}
+.header__bottom {
+  background: #f6731c;
+}
+.header__bottom-col1,
+.header__bottom-col2,
+.header__bottom-col3,
+.header__bottom-col4 {
+  float: left;
+}
+.header__bottom-col1 {
+  width: 25%;
+}
+.header__bottom-col2 {
+  width: 40%;
+}
+.header__bottom-col3 {
+  width: 20%;
+}
+.header__bottom-col4 {
+  width: 15%;
+}
+.main__left,
+.main__right {
+  float: left;
+}
+.main__left {
+  width: 22%;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(240, 240, 240, 0.7);
+  display: block;
+}
+.main__right {
+  width: 78%;
 }
 body {
   font: normal 10pt Helvetica, Arial, sans-serif;

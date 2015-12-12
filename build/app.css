@@ -244,6 +244,11 @@ a {
 .main-slideshow {
   margin: 0 29px;
 }
+.goods__el {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+}
 .ico {
   display: inline-block;
   vertical-align: middle;
@@ -770,18 +775,27 @@ a {
   margin-top: 29px;
   margin-right: 25px;
 }
-.item__top-name {
-  margin: 4px 0 57px 0;
+.item {
+  height: 370px;
+  padding: 10px 10px;
+  vertical-align: top;
+  border: 5px solid transparent;
+}
+.item__center {
+  padding: 20px 0;
+}
+.item__center-ico {
+  margin: 10px 0;
+}
+.item__bottom {
+  margin-bottom: 10px;
 }
 .item__bottom-bonus {
   margin: 10px 0;
 }
 .item__img {
   display: block;
-  margin: 30px 30px;
-}
-.item__text {
-  padding: 10px 0;
+  padding: 45px 13px;
 }
 .item__text-code {
   font-size: 10px;
@@ -846,6 +860,13 @@ a {
 }
 .item__ico {
   margin: 0 8px;
+}
+.item__link {
+  position: relative;
+}
+.item:hover {
+  border-radius: 8px;
+  border: 5px solid #F1F1F1;
 }
 .filter {
   margin: 10px 0;

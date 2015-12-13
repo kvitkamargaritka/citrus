@@ -246,10 +246,16 @@ a {
 .main-slideshow {
   margin: 0 29px;
 }
+.goods {
+  padding: 0 5px;
+}
 .goods__el {
   float: left;
   width: 33%;
   box-sizing: border-box;
+}
+.bonus-gift {
+  margin: 0 10px 0 0;
 }
 .pages {
   text-align: center;
@@ -813,7 +819,7 @@ a {
   border: 5px solid transparent;
 }
 .item__center {
-  padding: 20px 0;
+  padding: 6px 0 20px 0;
 }
 .item__center-ico {
   margin: 10px 0;
@@ -872,8 +878,8 @@ a {
 }
 .item__moneyback-img {
   position: absolute;
-  top: -74px;
-  left: 2px;
+  top: -88px;
+  left: -12px;
   height: 84px;
 }
 .item__moneyback-text {
@@ -881,8 +887,8 @@ a {
   font-weight: bold;
   color: #ffffff;
   position: absolute;
-  top: -45px;
-  left: 9px;
+  top: -59px;
+  left: -4px;
 }
 .item__quantity {
   color: #C2C2C2;
@@ -894,6 +900,9 @@ a {
 }
 .item__link {
   position: relative;
+}
+.item__space {
+  height: 22px;
 }
 .item:hover {
   border-radius: 8px;
@@ -945,6 +954,15 @@ a {
 }
 .main__right {
   width: 78%;
+}
+.footer {
+  width: 100%;
+}
+.footer__bottom-col1,
+.footer__bottom-col2,
+.footer__bottom-col3 {
+  width: 33%;
+  float: left;
 }
 body {
   font: normal 10pt Helvetica, Arial, sans-serif;

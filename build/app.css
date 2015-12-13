@@ -269,6 +269,25 @@ a {
   width: 33%;
   float: left;
 }
+.reseller__img {
+  padding: 30px 0;
+}
+.copy {
+  margin: 0 55px 0 20px;
+}
+.social {
+  margin: 2px 0 0 79px;
+}
+.up-btn {
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.up-btn:hover {
+  opacity: 1;
+}
 .ico {
   display: inline-block;
   vertical-align: middle;
@@ -357,11 +376,6 @@ a {
   background: url("/citrus/src/img/ico/appstore.png");
   width: 136px;
   height: 40px;
-}
-.ico_reseller {
-  background: url("/citrus/src/img/ico/reseller.png");
-  width: 140px;
-  height: 47px;
 }
 .ico_payment {
   background: url("/citrus/src/img/ico/payment.png");
@@ -676,14 +690,18 @@ a {
   display: inline-block;
 }
 .follow__link-download {
-  width: 140px;
+  width: 120px;
   height: 40px;
 }
 .follow__ico {
   position: absolute;
 }
+.menu-opts__list {
+  float: left;
+  margin: 3px 0 0 27px;
+}
 .menu-opts__el {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 .menu-opts__link {
   text-decoration: underline;
@@ -727,6 +745,7 @@ a {
   height: 80px;
   text-align: right;
   position: relative;
+  left: 8px;
   background: transparent url('img/ico/phone.png') top right no-repeat;
 }
 .support__phone-descr {
@@ -796,6 +815,7 @@ a {
 }
 .bonus {
   height: 83px;
+  margin-bottom: 45px;
   background-image: url("/citrus/src/img/100bonus.png");
 }
 .bonus__text {
@@ -958,15 +978,16 @@ a {
 .footer {
   width: 100%;
 }
-.footer__bottom-col1,
-.footer__bottom-col2,
-.footer__bottom-col3 {
-  width: 33%;
+.footer__bottom-col {
   float: left;
 }
 body {
   font: normal 10pt Helvetica, Arial, sans-serif;
   color: #484748;
+  background-color: #EFEFEF;
+  background-image: url("/citrus/src/img/newyear_2016.jpg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
 }
 a {
   text-decoration: none;
